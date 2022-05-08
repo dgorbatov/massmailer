@@ -1,6 +1,7 @@
 {
   "name": "massmailer",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dgorbatov/massmailer/issues"
   },
-  "homepage": "https://github.com/dgorbatov/massmailer#readme"
+  "homepage": "https://github.com/dgorbatov/massmailer#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
